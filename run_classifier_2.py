@@ -34,7 +34,7 @@ from absl import flags,logging
 from lstm_crf_layer import BLSTM_CRF
 from tensorflow.contrib.layers.python.layers import initializers
 
-TPU_ADDRESS = 'grpc://10.4.42.10:8470'
+TPU_ADDRESS = 'grpc://10.12.94.26:8470'
 
 #flags = tf.flags
 
